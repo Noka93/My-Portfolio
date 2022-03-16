@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color: #f5b041;
+    --second-color:#212f3d;
+}
+
+section{
+    padding: 100px;
+}
+
+#Home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 100px;
+    box-shadow: 0 2px 6px rgba(146, 161, 176, 0.15);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    transition: 0.5s;
+}
+
+.logo{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color:var(--second-color);
+    font-weight: 700;
+}
+
+ul{
+    display: flex;
+}
+
+ul li a{
+    padding: 10px 22px;
+    color:var(--second-color);
+    border-radius: 2px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+ul li a:hover{
+    background: var(--main-color);
+    color: #fff;
+    border: none;
+}
+
+.home-text{
+    max-width: 500px;
+    
+}
+.home-text .name{
+    color: var(--second-color);
+    font-size: 3.1rem;
+}
+.home-text h1{
+    color:var(--second-color);
+    font-size:2.3rem;
+    font-weight: 700;
+    margin-bottom: 2.0rem;
+    line-height: 4.5rem;
+}
+
+span{
+    color: var(--main-color);
+}
+
+.home img{
+    width: 300px;
+    height: 300px;
+}
+
+.home img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+ 
+/*Hire me */
+.home-text a{
+    padding: 12px 34px;
+    background: var(--main-color);
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    letter-spacing: 1px;
+}
+
+.home-text a:hover{
+    background: var(--second-color);
+    box-shadow: 0 10px 34px rgba(0, 0, 0, 0.14);
+}
+
+.social{
+    position: absolute;
+    display: flex;
+    bottom: 8%;
+    left: 215px;
+}
+
+.social i{
+    margin-right: 24px;
+    font-size: 24px;
+    color: var(--second-color);
+}
+
+.social i:hover{
+    color: var(--main-color);
+}
