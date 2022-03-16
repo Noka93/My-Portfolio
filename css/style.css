@@ -30,6 +30,7 @@ nav{
     top: 0;
     left: 0;
     width: 100%;
+    background:#fff;
     padding: 15px 100px;
     box-shadow: 0 2px 6px rgba(146, 161, 176, 0.15);
     display: flex;
@@ -86,7 +87,7 @@ span{
 
 .home img{
     width: 300px;
-    height: 300px;
+    height: 250px;
 }
 
 .home img img{
@@ -126,4 +127,74 @@ span{
 
 .social i:hover{
     color: var(--main-color);
+}
+
+#About{
+    background-image:url(/images/img.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.abt_heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.abt_heading h2{
+    color: #212f3d;
+    border-bottom: 3px solid #212f3d;
+    font-size: 1.8rem;
+}
+.abt_heading p{
+    color: #212f3d;
+    margin-top: 0.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.abt_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.abt_content img{
+    width: 300px;
+    height: 250px;
+}
+
+.abt_content img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.abt_text{
+    width: 500px;
+    justify-content: center;
+}
+
+.abt_text h1{
+    font-size: 1.5rem;
+    color:var(--second-color);
+}
+
+.abt_text p{
+    color:var(--second-color);
+    margin: 5px 0 24px;
+    text-align: justify;
+    line-height: 1.8rem;
+}
+
+.abt_text a{
+    padding: 12px 20px;
+    background: #f5b041;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.abt_text a:hover{
+    background: #212f3d;
+    box-shadow: 0 10px 34px rgba(0, 0, 0, 0.14);
 }
